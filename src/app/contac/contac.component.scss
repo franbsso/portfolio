@@ -1,0 +1,159 @@
+.fondo{
+  background-image: url(https://i.pinimg.com/736x/ac/95/ff/ac95ffa91025ca875854caf5e179bf38.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: 100% 100%;
+}
+.sombra{
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+  margin:auto;
+  width: 90%;
+  margin-top: 40px;
+}
+.example-card1 {
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+}
+#ima{
+  border-radius: 800px;
+  width: 200px;
+  height: 170px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#le{
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+
+#el{
+  margin-top: -25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text-md-center{
+  font-weight: 600;
+  font-size: 2.0em;
+
+}
+.navbar-nav{
+  margin-left: auto;
+  text-align: right;
+}
+.Misbotones{
+  margin-top: 30px;
+  margin:1%;
+}
+.letra{
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 1.714em;
+  line-height: 1.45em;
+}
+mat-card-subtitle{
+  color: black;
+}
+.exp{
+  margin-top: 50px;
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+}
+#tarjeta{
+  margin-top: 50px;
+  background-color: transparent;
+  color: rgb(236, 13, 13);
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+}
+.Auto{
+  width: 180px;
+  height: 150px;
+}
+.fondo2{
+  background-color:#031B33 ;
+  background-repeat: no-repeat;
+  max-width: auto;
+  background-size: 100% 100%;
+}
+.card3{
+  background-color:#031B33 ;
+  color: black;
+  margin:auto;
+  width: 40%;
+  margin-top: 80px;
+  border:0px solid #67b3e4;
+  height: 520px;
+  box-shadow: none;
+}
+mat-progress-bar{
+  width: 80%;
+  height: 25px;
+}
+mat-form-field{
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: #67b3e4;
+}
+.name{
+  color: black;
+  border-radius: 10px;
+  border-color: #67b3e4;
+}
+.email{
+  color: black;
+
+}
+.msj{
+  color: black;
+}
+.send{
+  background-color: blue;
+  text-align:right;
+  margin-top:20px;
+}
+mat-label{
+  border-radius: 10px;
+  border-color: #67b3e4;
+}
+.boton{
+  background-color: #67b3e4;
+
+}
+.animate__backInRight{
+  --animate-duration: 5s;
+}
+.animate__zoomInRight{
+  --animate-duration: 3s;
+}
+.borde{
+  border:1px solid rgb(8, 157, 243)
+}
+.bord{
+  border:1px solid rgb(8, 157, 243)
+}
+.bordes{
+  border:1px solid rgb(8, 157, 243)
+}
+
+p, .form, .contact{
+  color: white;
+}
+.formbottom{
+margin-left: 2%;
+margin-top: 10px;
+
+  background-color: #C2185B ;
+}
+

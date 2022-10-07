@@ -1,0 +1,128 @@
+em{
+  color:white
+}
+.fondo{
+  background-image: url(https://i.pinimg.com/736x/ac/95/ff/ac95ffa91025ca875854caf5e179bf38.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: 100% 100%;
+}
+.sombra{
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+  margin:auto;
+  width: 90%;
+  margin-top: 40px;
+}
+.example-card1 {
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+}
+.ima{
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#le{
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+
+#el{
+  margin-top: -25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text-md-center{
+  font-weight: 600;
+  font-size: 2.0em;
+
+}
+.navbar-nav{
+  margin-left: auto;
+  text-align: right;
+}
+.Misbotones{
+  margin-top: 30px;
+  margin:1%;
+}
+.letra{
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 1.714em;
+  line-height: 1.45em;
+}
+mat-card-subtitle{
+  color: black;
+}
+.exp{
+  margin-top: 50px;
+  background-color: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+
+}
+#tarjeta{
+  margin-top: 50px;
+  background-color: transparent;
+  color: rgb(236, 13, 13);
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px
+}
+.Auto{
+  width: 180px;
+  height: 150px;
+}
+.fondo2{
+  background-image: url(https://fondosmil.com/fondo/13700.jpg);
+  background-repeat: no-repeat;
+  max-width: auto;
+  background-size: 100% 100%;
+}
+.card3{
+  margin-top: 80%;
+  background-color:white;
+  color: black;
+  margin:auto;
+  width: 90%;
+  margin-top: 40px;
+  border:1px solid #67b3e4;
+  height: 600px
+}
+mat-progress-bar{
+  width: 80%;
+  height: 25px;
+}
+#form{
+  border:1px solid #67b3e4
+}
+mat-form-field{
+  margin-top: 20px;
+}
+.name{
+  color: black;
+}
+.email{
+  color: black;
+}
+.animate__backInRight{
+  --animate-duration: 5s;
+}
+.animate__zoomInRight{
+  --animate-duration: 7s;
+}
+.hover:hover{
+background: #031B33 ;
+}

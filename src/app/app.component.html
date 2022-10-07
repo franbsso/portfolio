@@ -1,0 +1,31 @@
+<div class="fondoglobal">
+  <div class="fondo">
+    <app-navbar
+      [referenciaSeccion]="intro"
+      [referenciaSeccion2]="intro2"
+      [referenciaSeccion3]="intro3"
+      [referenciaSeccion4]="intro4"
+      [referenciaSeccion5]="intro5"
+    >
+    </app-navbar>
+
+    <app-perfil></app-perfil>
+  </div>
+  <div #intro>
+    <app-sobremi></app-sobremi>
+  </div>
+  <div #intro2>
+    <app-experiencia></app-experiencia>
+  </div>
+  <div #intro3>
+    <app-skill></app-skill>
+  </div>
+  <div #intro4>
+    <app-educacion></app-educacion>
+  </div>
+  <div #intro5 class="fondo2">
+    <app-contac></app-contac>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
