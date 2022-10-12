@@ -1,0 +1,57 @@
+<div class="container-fluid">
+  <mat-card class="card3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-md-center contact">Contact</div>
+      </div>
+      <br>
+      <br>
+      <br>
+    </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <form class="user-login" [formGroup]="loginForm" (ngSubmit)="contacto()">
+
+            <mat-form-field class="bord"appearance="fill">
+              <mat-label class="form">Nombre</mat-label>
+              <input matInput type="text" formControlName="text_uno">
+              <div *ngIf="formControl.text_uno.errors" class="text-danger">
+                <div *ngIf="formControl.text_uno.errors.requiered">Se necesita un nombre</div>
+              </div>
+
+            </mat-form-field>
+
+              <mat-form-field class="borde" appearance="fill">
+                <mat-label class="form">Email</mat-label>
+                <input matInput type="email" formControlName="email">
+              </mat-form-field>
+              <div *ngIf="formControl.email.errors" class="text-danger">
+                <div *ngIf="formControl.email.errors.email">El email debe ser valido</div>
+                <div *ngIf="formControl.email.errors.requiered">Se necesita un email </div>
+              </div>
+
+
+             <mat-form-field class="bordes" appearance="fill">
+              <mat-label class="form">Mensaje</mat-label>
+              <input matInput type="text" formControlName="text_dos">
+              <div *ngIf="formControl.text_dos.errors" class="text-danger">
+                <div *ngIf="formControl.text_dos.errors.requiered">Por favor deja tu mensaje </div>
+              </div>
+
+            </mat-form-field>
+
+             <button type="submit" formControlName="submit" mat-raised-button class="formbottom">Enviar</button>
+          </form>
+          <div class="col-md-4">
+
+
+        </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-2">
+          <p class="fw-bold rounded-start">Telefono </p><p text-center>+542213166028</p>
+          <p class="fw-bold rounded-start">email</p> <p text-center>galvezb333@gmail.com</p>
+        </div>
+      </div>
+  </mat-card>
+</div>
